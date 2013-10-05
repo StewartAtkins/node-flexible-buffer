@@ -1,9 +1,6 @@
-var self;
-self = module.exports = exports = {};
-
 var DEFAULT_BUFFER_SIZE = 200;
 
-self = function(buffer){
+var self = function(buffer){
 	this.rpos = 0;
 	this.wpos = 0;
 	
@@ -20,6 +17,7 @@ self = function(buffer){
 	
 	
 };
+module.exports = exports = self;
 
 var tryRead = function(buf, numBytes){
 	if((buf.rpos + numBytes) > buf.buffer.length)
