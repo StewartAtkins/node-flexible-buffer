@@ -1,2 +1,2 @@
-node-flexible-bufer
+node-flexible-buffer
 ===================

@@ -1,0 +1,21 @@
+{
+  "name": "flexible-buffer",
+  "version": "0.0.1",
+  "description": "Flexible version of the default node Buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit tests/tests.js"
+  },
+  "devDependencies": {
+  	"nodeunit": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/StewartAtkins/node-flexible-buffer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StewartAtkins/node-flexible-buffer/issues"
+  },
+  "author": "Stewart Atkins",
+  "license": "BSD-3-Clause"
+}
